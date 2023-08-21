@@ -54,6 +54,7 @@ const starkwareCrypto = require('@starkware-industries/starkware-crypto-utils');
 
     asset: {
       getAssetType,
+      getAssetSelector,
       getAssetId // Function.
     },
 
@@ -67,7 +68,8 @@ const starkwareCrypto = require('@starkware-industries/starkware-crypto-utils');
     },
 
     messageUtils: {
-      assertInRange // Function.
+      assertInRange,
+      assertInMultiRange // Function.
     }
 }
 ```
